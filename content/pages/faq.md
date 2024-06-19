@@ -1,5 +1,6 @@
 ---
 title: FAQ
+slug: FAQ
 layout: PageLayout
 sections:
   - colors: colors-a

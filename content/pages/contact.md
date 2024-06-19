@@ -1,5 +1,6 @@
 ---
 layout: PageLayout
+slug: PageLayout
 metaTitle: 'Contact Hydraulic Component Services in Perth, Western Australia'
 metaDescription: >-
   Get in touch with Hydraulic Component Services in Perth, WA. We offer repairs,
