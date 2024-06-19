@@ -1,0 +1,141 @@
+{
+    "model": "FeaturedItemsSection",
+    "srcType": "git",
+    "srcProjectId": "stackbit-projects/oval-sunflower-0d8b7",
+    "presets": [
+        {
+            "label": "Image and text ",
+            "thumbnail": "images/featured-items-section-image-and-text-2f7a.png",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "saved"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "colors": "colors-h",
+                "elementId": "",
+                "title": null,
+                "subtitle": null,
+                "items": [
+                    {
+                        "elementId": null,
+                        "title": "Mud Lake Vehicle",
+                        "subtitle": null,
+                        "text": "Complete re-design and installation of entire hydraulic system including electronic operating system all work carried out at our premises.\n",
+                        "featuredImage": {
+                            "url": "/images/mudlake.jpg",
+                            "altText": "mudlake",
+                            "caption": null,
+                            "elementId": null,
+                            "styles": null,
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "styles": {
+                            "self": {
+                                "textAlign": "center"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    },
+                    {
+                        "elementId": null,
+                        "title": "Power Unit Manufacture",
+                        "subtitle": null,
+                        "text": "10 x portable power units for winch systems. Designed built and tested in house to stringent deadline.\n",
+                        "featuredImage": {
+                            "url": "/images/Power-Unit-Manufacture.jpg",
+                            "altText": "Power Unit Manufacture",
+                            "caption": null,
+                            "elementId": null,
+                            "styles": null,
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "styles": {
+                            "self": {
+                                "textAlign": "center"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    },
+                    {
+                        "elementId": null,
+                        "title": "Automatic Oil Rig Sliding Table",
+                        "subtitle": null,
+                        "text": "Supply and install complete hydraulic system including manufacture of all pipework.\n",
+                        "featuredImage": {
+                            "url": "/images/Automatic-Oil-Rig-Sliding.jpg",
+                            "altText": "Automatic Oil Rig Sliding Table",
+                            "caption": null,
+                            "elementId": null,
+                            "styles": null,
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "styles": {
+                            "self": {
+                                "textAlign": "center"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    },
+                    {
+                        "elementId": "",
+                        "title": "Water pump winch system",
+                        "subtitle": "",
+                        "text": "Design and supply 5 x hydraulic systems with automatic tension & brake control.\n",
+                        "featuredImage": {
+                            "url": "/images/Water-pump-winch-system.jpg",
+                            "altText": "Water pump winch system",
+                            "caption": null,
+                            "elementId": null,
+                            "styles": null,
+                            "$$type": "ImageBlock"
+                        },
+                        "actions": [],
+                        "styles": {
+                            "self": {
+                                "textAlign": "center"
+                            }
+                        },
+                        "$$type": "FeaturedItem"
+                    }
+                ],
+                "actions": [],
+                "columns": 2,
+                "enableHover": false,
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": [
+                            "mt-0",
+                            "mb-0",
+                            "ml-0",
+                            "mr-0"
+                        ],
+                        "padding": [
+                            "pt-12",
+                            "pb-12",
+                            "pl-4",
+                            "pr-4"
+                        ],
+                        "justifyContent": "center"
+                    },
+                    "title": {
+                        "textAlign": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    },
+                    "actions": {
+                        "justifyContent": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "model": "HeroSection",
+    "srcType": "git",
+    "srcProjectId": "stackbit-projects/oval-sunflower-0d8b7",
+    "presets": [
+        {
+            "label": "Hero Banner",
+            "thumbnail": "images/hero-section-hero-banner-b74a.png",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Hero Banner"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "elementId": "homepage-hero-1",
+                "colors": "colors-a",
+                "title": "Hydraulic Component Services",
+                "subtitle": "We provide superior hydraulic services and solutions to Australian businesses. Our team is made up of highly skilled and experienced hydraulic specialists, boasting a combined 70+ years of experience. Our specialised skills and sophisticated facilities allow us to offer unrivalled service levels.",
+                "badge": {
+                    "label": "Welshpool, WA, Australia",
+                    "elementId": "",
+                    "styles": {
+                        "self": {
+                            "textAlign": "left"
+                        }
+                    },
+                    "$$type": "Badge"
+                },
+                "text": null,
+                "actions": [
+                    {
+                        "label": "View Project History",
+                        "altText": null,
+                        "url": "https://www.stackbit.com/",
+                        "showIcon": true,
+                        "icon": "chevronRight",
+                        "iconPosition": "right",
+                        "style": "primary",
+                        "elementId": null,
+                        "$$type": "Button"
+                    }
+                ],
+                "media": {
+                    "url": "/images/hydraulic-repairs-perth.webp",
+                    "altText": "hydraulic repairs perth",
+                    "caption": null,
+                    "elementId": null,
+                    "styles": null,
+                    "$$type": "ImageBlock"
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "wide",
+                        "margin": [
+                            "mt-0",
+                            "mb-0",
+                            "ml-0",
+                            "mr-0"
+                        ],
+                        "padding": [
+                            "pt-16",
+                            "pb-16",
+                            "pr-4",
+                            "pl-4"
+                        ],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "textAlign": "left"
+                    },
+                    "subtitle": {
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    },
+                    "actions": {
+                        "justifyContent": "flex-start"
+                    }
+                }
+            }
+        }
+    ]
+}

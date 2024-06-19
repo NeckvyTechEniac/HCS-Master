@@ -1,0 +1,110 @@
+{
+    "model": "ContactSection",
+    "srcType": "git",
+    "srcProjectId": "stackbit-projects/oval-sunflower-0d8b7",
+    "presets": [
+        {
+            "label": "Contact form",
+            "thumbnail": "images/contact-section-contact-form-29f1.png",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "contact"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "elementId": "",
+                "colors": "colors-f",
+                "backgroundSize": "inset",
+                "title": "Send an enquiry",
+                "text": "We'd love to hear from you! Please get in contact to start a\nconversation about your business requirements.\n",
+                "form": {
+                    "variant": "variant-a",
+                    "fields": [
+                        {
+                            "name": "name",
+                            "label": "Name",
+                            "hideLabel": null,
+                            "placeholder": "Your name",
+                            "isRequired": "true",
+                            "width": "1/2",
+                            "$$type": "TextFormControl"
+                        },
+                        {
+                            "name": "email",
+                            "label": "Email",
+                            "hideLabel": null,
+                            "placeholder": "Your email",
+                            "isRequired": "true",
+                            "width": "1/2",
+                            "$$type": "EmailFormControl"
+                        },
+                        {
+                            "name": "Number",
+                            "label": "Number",
+                            "hideLabel": false,
+                            "placeholder": "Your Number",
+                            "isRequired": true,
+                            "width": "full",
+                            "$$type": "TextFormControl"
+                        },
+                        {
+                            "name": "Description",
+                            "label": "Description",
+                            "hideLabel": false,
+                            "placeholder": "How can we help?",
+                            "isRequired": false,
+                            "width": "full",
+                            "$$type": "TextareaFormControl"
+                        }
+                    ],
+                    "submitLabel": "Send Message",
+                    "elementId": "contact-form",
+                    "action": "/.netlify/functions/submission_created",
+                    "destination": "",
+                    "styles": null,
+                    "$$type": "FormBlock"
+                },
+                "media": {
+                    "url": "/images/hydraulics_engineering.webp",
+                    "altText": "Authorised Parker distributors",
+                    "caption": "Parker distributors",
+                    "elementId": null,
+                    "styles": null,
+                    "$$type": "ImageBlock"
+                },
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "full",
+                        "margin": [
+                            "mt-12",
+                            "mb-12",
+                            "ml-4",
+                            "mr-4"
+                        ],
+                        "padding": [
+                            "pt-8",
+                            "pb-8",
+                            "pl-8",
+                            "pr-8"
+                        ],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row",
+                        "borderColor": "border-complementary",
+                        "borderWidth": 0,
+                        "borderRadius": "x-large"
+                    },
+                    "title": {
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
+            }
+        }
+    ]
+}

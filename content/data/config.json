@@ -1,0 +1,165 @@
+{
+    "type": "Config",
+    "favicon": "/images/Hydraulic-Component-Services-Favicon.png",
+    "header": {
+        "headerVariant": "variant-a",
+        "primaryColors": "colors-a",
+        "secondaryColors": "colors-f",
+        "title": "Hydraulic Component Services",
+        "isTitleVisible": false,
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Home",
+                "url": "/",
+                "altText": "Home Page"
+            },
+            {
+                "type": "Link",
+                "label": "Projects",
+                "url": "/project-history/",
+                "altText": "Project History Page"
+            },
+            {
+                "type": "Link",
+                "label": "Products",
+                "url": "/products/",
+                "altText": "Product Page"
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "altText": "Contact Page ",
+                "url": "/contact/"
+            }
+        ],
+        "secondaryLinks": [
+            {
+                "type": "Button",
+                "label": "Send Enquiry",
+                "altText": "Send Enquiry Now",
+                "url": "#enquiry-section",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": "header-button"
+            },
+            {
+                "type": "Button",
+                "label": "(08) 9350 9088",
+                "url": "tel:+61893509088",
+                "altText": "Call to contact",
+                "style": "primary",
+                "icon": "send",
+                "iconPosition": "right",
+                "showIcon": false,
+                "elementId": "header-button"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-5",
+                    "pb-5",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        },
+        "logo": {
+            "altText": "Hydraulic Component Services",
+            "caption": "Caption of the image",
+            "elementId": "site-logo",
+            "styles": {
+                "self": {
+                    "opacity": 100
+                }
+            },
+            "type": "ImageBlock",
+            "url": "/images/Hydraulic-Component-Services-logo-2023.webp"
+        }
+    },
+    "footer": {
+        "colors": "colors-a",
+        "logo": {
+            "altText": "Parker Distributor",
+            "caption": "Parker Distributor",
+            "elementId": "parker-d",
+            "styles": {
+                "self": {
+                    "opacity": 100
+                }
+            },
+            "type": "ImageBlock",
+            "url": "/images/parker-distributor-logo.webp"
+        },
+        "contacts": {
+            "title": "Contact details",
+            "phoneNumber": "08 9350 9088",
+            "phoneAltText": "Our phone",
+            "email": "sales@hydcompserv.com.au",
+            "emailAltText": "Our email"
+        },
+        "copyrightText": "By [TL](https://travislord.xyz)\n",
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Project History",
+                "url": "/project-history/",
+                "altText": "Project History Page"
+            },
+            {
+                "type": "Link",
+                "label": "Services",
+                "url": "/services/",
+                "altText": "Services Page"
+            },
+            {
+                "type": "Link",
+                "label": "FAQ",
+                "url": "/faq/",
+                "altText": "FAQ's Page"
+            },
+            {
+                "type": "Link",
+                "label": "Part Numbers",
+                "url": "/part-numbers/",
+                "altText": "Part Numbers Page"
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "label": "Linkedin",
+                "altText": "Linkedin Page",
+                "url": "https://www.linkedin.com/company/hydraulic-component-services/",
+                "icon": "linkedin",
+                "style": "link",
+                "elementId": ""
+            }
+        ],
+        "legalLinks": [
+            {
+                "type": "Link",
+                "label": "Privacy Policy",
+                "url": "/privacy-policy"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        },
+        "text": "**Information & Services**\n"
+    },
+    "defaultSocialImage": "/images/hydraulics_engineering_perth.webp",
+    "defaultMetaTags": []
+}

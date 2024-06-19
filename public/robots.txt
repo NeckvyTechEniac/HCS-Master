@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hydcompserv.com.au/
+
+# Sitemaps
+Sitemap: https://hydcompserv.com.au/sitemap.xml
