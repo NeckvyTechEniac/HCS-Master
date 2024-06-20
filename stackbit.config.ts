@@ -31,22 +31,22 @@ export default defineStackbitConfig({
         },
         // Add other model extensions if needed
     ],
-    contentSources: [
-        {
-            name: 'pages',
-            type: 'folder',
-            path: 'pages',
-            match: '**/*.md',
-            models: ['page']
-        },
-        {
-            name: 'data',
-            type: 'folder',
-            path: 'content/data',
-            match: '**/*.json',
-            models: ['person']
-        },
-        // Add other content sources if needed
-    ],
+    // contentSources: [
+    //     {
+    //         name: 'pages',
+    //         type: 'folder',
+    //         path: 'pages',
+    //         match: '**/*.md',
+    //         models: ['page']
+    //     },
+    //     {
+    //         name: 'data',
+    //         type: 'folder',
+    //         path: 'content/data',
+    //         match: '**/*.json',
+    //         models: ['person']
+    //     },
+    //     // Add other content sources if needed
+    // ],
 });
 
